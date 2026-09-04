@@ -1,0 +1,20 @@
+# Core dependency manager
+/vendor/
+
+# Environment configurations & credentials
+.env
+.env.local
+.env.*.local
+
+# PHPUnit / Testing code coverage
+/.phpunit.cache/
+/.php-cs-fixer.cache
+.phpunit.result.cache
+
+# Build outputs and logs
+*.log
+/build/
+
+# Package manager lock files (Optional but common)
+# Keep composer.lock for applications, but you may ignore it for libraries
+# composer.lock
